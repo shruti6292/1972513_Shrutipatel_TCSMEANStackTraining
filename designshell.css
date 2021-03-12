@@ -1,0 +1,30 @@
+body{
+     
+     background-color: lightcoral;
+    
+}
+#d1{
+      padding: 20px;
+      transition: font-size 20s;
+      font-size: 30px;
+      font-weight: 100px;
+}
+#d2{
+       padding: 20px;
+       margin: 10px;
+       font-size: larger;
+       text-align: center;
+}
+#d3{
+       width: 120px;
+       height: 150px;
+       
+       font-size: medium;
+
+}
+#d4{
+    padding: 20px;
+    margin: 10px;
+    font-size: larger;
+    text-align: left;
+}
