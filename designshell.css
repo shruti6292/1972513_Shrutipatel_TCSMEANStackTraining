@@ -1,0 +1,35 @@
+body{
+       background-color: rgb(230, 191, 230) ;
+   }
+   div{
+       color: crimson;
+       border: black solid 2px;
+       font-weight: bolder;
+       font-size: 30px;
+       text-align: center;
+   }
+   #d1{
+       color: crimson;
+       font-weight: bold;
+       font-size: 20px;
+       font-style: italic;
+   }
+   #d4{
+      border: solid black;
+      font-weight: bold;
+      font-style: italic; 
+   }
+   #d5{
+       border: solid black 2px;
+       position: absolute;
+       animation-name: Buttonanimation;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+   }
+   @keyframes Buttonanimation {
+       0% {background-color:rgb(56, 56, 146);}
+       25% {background-color: seagreen;}
+       50% {background-color: rgb(122, 192, 157);}
+       75% {background-color: rgb(145, 145, 58);}
+       100% {background-color: brown;}
+   }

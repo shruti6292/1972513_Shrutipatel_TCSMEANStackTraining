@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Shell</title>
+
+    <link rel="stylesheet" href="designshell.css">
+
+    <script type="text/JavaScript">
+    function display() {
+        var name = document.getElementById("name").value;
+        alert("Hello "+name+ "! How are you doing?");
+    }
+    </script>
+</head>
+<body>
+    <div id="div">
+        Welcome to my design shell
+    </div>
+
+    <h4 id="d1">Hello! Please enter your name to view a alert box!</h4>
+
+    <Label id="d4">Name:</Label>
+    <input type="text" name="name" id="name" placeholder="Enter your name">
+    <input id ="d5" type="button" value="Click Me!" onclick="display() "/><br/>
+    <br/>
+    <hr/>
+
+    <table>
+        <table id="d5" border="10px" cellpadding="30px">
+			<h3>Student Details</h3>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Phone</th>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>ABC</td>
+				<td>+123-456-7891</td>
+			</tr>
+			<tr>
+				<td>002</td>
+				<td>PQR</td>
+				<td>+1-789-456-1230</td>
+			</tr>
+		</table>
+    </table>
+</body>
+</html>
