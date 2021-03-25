@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Blog</title>
+    <link rel="stylesheet" href="SimplyBlog.css">
+    <script src="SimplyBlog.js"> </script>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+    <div id="d1">
+
+        <h2 align="center"> <u>Simply Blogging</u> </h2>
+    <ul class="nav justify-content-end">
+        <li >
+          <a href="#" class="nav-link"> Add Blog </a>
+        </li>
+        <li >
+            <a href="#" class="nav-link"> Home </a>
+          </li>
+          <li >
+            <a href="#" class="nav-link"> AboutUs </a>
+          </li>
+          <li >
+            <a href="#" class="nav-link"> Contacts </a>
+          </li>
+      
+  </ul>
+
+           Title : <input type="text" id="title"/> </br/>
+           Article : <textarea type="text" id="desc">  </textarea> <br/>
+           <input type="file" id="imageId"/>
+           <input type="button" value="Add Blog" 
+           onclick="addBlog()"/> 
+                
+           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
+            <div class="col">
+                 <div>
+                <b>Title:</b><Label id="titleinfo"></Label><br/>
+                <b>Description:</b> <Label id = "descinfo"></Label><br/>
+                <b>Image:</b><br/><img src =" " id= "imageinfo"  style="margin-left: 100px;" width="350px" height="250px"/>
+                </div>
+            </div> <div class="col">
+                <div>
+                <b>Title:</b><Label id="titleinfo" > Lion </Label><br/>
+                <b>Description:</b> <Label id = "descinfo">Lions are leaders because they demonstrate who they are. They are not afraid of what the other animals will do when they go after what they want! </Label><br/>
+                <b>Image:</b><br/><img src ="lion.jpe" id= "imageinfo" style="margin-left: 50px;" width="250px" height="150px"/>
+                </div>
+            </div>
+            <div class="col">
+                 <div>
+                <b>Title:</b><Label id="titleinfo"> Peacock </Label><br/>
+                <b>Description:</b> <Label id = "descinfo">Peacocks are considered as most beautiful and colorful birds in the world. They are known for their iridescent tails they used for mating rituals and courtship displays!</Label><br/>
+                <b>Image:</b><br/><img src ="peacock.jpe" id= "imageinfo"  style="margin-left: 50px;" width="250px" height="150px"/>
+                </div>
+            </div>
+
+
+
+      
+
+
+        </div>
+        
+    
+</body>
+</html>
