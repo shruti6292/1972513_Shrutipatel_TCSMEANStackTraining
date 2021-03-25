@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FRUIT SHOP</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jqueryshopping.js"></script>
+</head>
+
+<body>
+
+<div id="site">
+	<header style="text-align: center; border: 2px solid black; font-weight: bolder; font-size: larger;">
+		FRUIT SHOP
+	</header>
+	<div id="content">
+		<div id="products">
+			<ul>
+				<li>
+					<div class="product-image">
+						<img src="apple.jpe" alt="" />
+					</div>
+					<div class="product-description" data-name="apple" data-price="5">
+						<h3 class="product-name"> Apple </h3>
+						<p class="product-price">$ 5</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-1">Quantity</label>
+								<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="grapes.jpe" alt="" />
+					</div>
+					<div class="product-description" data-name="grapes" data-price="8">
+						<h3 class="product-name"> Grapes </h3>
+						<p class="product-price">$ 8</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="avacado.jpe" alt="" />
+					</div>
+					<div class="product-description" data-name="avacado" data-price="11">
+						<h3 class="product-name"> Avacado </h3>
+						<p class="product-price">$ 11</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-3">Quantity</label>
+								<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+
+
+				
+			</ul>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>	
