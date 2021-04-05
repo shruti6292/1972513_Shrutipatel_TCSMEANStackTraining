@@ -1,0 +1,16 @@
+node_modules
+logRecords-report
+
+indexjs1.jpg
+indexjs2.jpg
+indexjson.jpg
+
+output1.jpg
+output2.jpg
+output3.jpg
+output4.jpg
+output5.jpg
+output6.jpg
+output7.jpg
+output8.jpg
+output9.jpg
