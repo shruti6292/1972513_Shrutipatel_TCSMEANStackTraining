@@ -1,0 +1,10 @@
+node_modules
+
+html1.jpg
+html2.jpg
+output1.jpg
+output2.jpg
+output3.jpg
+output4.jpg
+
+chatapp-report.doc
