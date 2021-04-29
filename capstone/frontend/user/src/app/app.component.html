@@ -1,0 +1,21 @@
+<bs-navbar></bs-navbar>
+<div class="container">
+  <router-outlet></router-outlet> 
+</div>
+<p>
+  {{(items$ | async).length}} items in cart
+</p>
+
+<ul class="products">
+  <li *ngFor="let product of productsList">
+    <div>{{product.name}}</div>
+    <input type="button" (click)="addToCart(product)" value="Add to Cart" />
+  </li>
+</ul>
+
+<h2>Cart Items</h2>
+<ul>
+  <li *ngFor="let product of items$ | async">
+    [id: {{product.id}}] {{product.name}}
+  </li>
+</ul>

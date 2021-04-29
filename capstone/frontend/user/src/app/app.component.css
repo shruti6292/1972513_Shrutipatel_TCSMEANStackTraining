@@ -1,0 +1,29 @@
+p {
+    font-family: Lato;
+  }
+  
+  ul {
+    
+  }
+  
+  ul.products {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    flex-flow: column;
+  }
+  
+  ul.cart {
+    flex-flow: row;
+  }
+  
+  ul.products > li {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 100px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
